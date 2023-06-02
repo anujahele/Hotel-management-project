@@ -1,0 +1,68 @@
+.home_section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote_h1
+{
+    font-family: lexend;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0cm;
+    text-align: center;
+    color: rgb(11, 93, 93);
+}
+.quote_h1:hover
+{
+    transform: scale(1.07);
+}
+.quote_h4
+{
+    font-family: lexend;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.2cm;
+    text-align: center;
+    color: rgba(0,0,0,0,1s);
+}
+.quotes_card
+{
+    font-family: lexend !important;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: purple;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+.some_quotes
+{
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 60px;  
+ color: indigo;
+ box-shadow: 15px 15px 15px -10px black;
+}
+.some_quotes:hover
+{
+    transform: scale(1.07);
+}
+.some_quotes > h4
+{
+    font-family: lexend !important;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 170px;
+    width: 1200px;
+    border-radius: 0px;
+}
